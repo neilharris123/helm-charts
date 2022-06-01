@@ -2,6 +2,11 @@
 ##
 replicaCount: 1
 
+## Set the maxUnavailable and maxSurge for the Deployment update strategy
+maxUnavailable: 0
+maxSurge: 1
+##
+
 ## restart policy for all containers
 ##
 restartPolicy: Always
